@@ -79,3 +79,19 @@ h2{
     text-align: justify;
     margin-right: 1%;
 }
+.bottom-container-main{
+    border: 1px solid black;
+    margin: 5%;
+    width:90% ;
+    height: 400px;
+}
+
+table, th, td {
+    border: 1px solid darkgreen;
+    text-align: center;
+}
+table{
+    margin-left: 5%;
+    margin-top: 3%;
+
+}
