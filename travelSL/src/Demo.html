@@ -170,9 +170,19 @@
             </table>
         </div>
         <div class="bottom-right">
-            <h2>Give Your Valuable Feedback </h2>
+            <h2>Share Your Valuable Feedback </h2>
             <div class="form-container">
+                <form action="" name="feedback" id="feedback"  onsubmit="return validateForm()" method="post" required>
+                    <br><br>
+                    <label for="comment">Idea : </label>
+                    <input type="text" placeholder="Insert Your Feedback here.." id="comment" name="comment" size="20px"><br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" placeholder="Insert a valid email address here.." id="email" name="email"><br><br>
 
+                    <button class="button-88" role="button" id="submit">Submit</button>
+
+                </form>
+                <div id="errorMessage" style="color: red; display: none;">Please enter your feedback.</div>
             </div>
         </div>
 
